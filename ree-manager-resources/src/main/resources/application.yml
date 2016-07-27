@@ -1,0 +1,15 @@
+# MONGODB (MongoProperties)
+spring.data.mongodb:
+  database: pxc-ree-data # Database name.
+  # port: 21029 # Mongo server port.
+  repositories:
+    enabled: true # Enable Mongo repositories.
+
+# Server Properties
+server.port: 9000
+
+# logging
+logging:
+  level:
+    org.springframework.security: DEBUG
+

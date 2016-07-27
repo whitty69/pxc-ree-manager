@@ -1,0 +1,8 @@
+<h2>REE Manager - Start Page</h2>
+<div ng-show="authenticated">
+	<p>You are logged in with the user name:{{controller.principal.username}}</p>
+	<p>You are logged in with the user name:{{controller.principal.authorities}}</p>
+</div>
+<div ng-show="!authenticated">
+	<p>Login to use the app</p>
+</div>
